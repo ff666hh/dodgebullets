@@ -1,0 +1,12 @@
+[project]
+name = "hand-magic-battle"
+version = "0.1.0"
+description = "A fun, visually exciting browser game prototype called \"Hand Magic Battle\" using Python + OpenCV + MediaPipe Hands + Pygame."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mediapipe>=0.10.11",
+    "numpy>=1.26.4",
+    "opencv-python>=4.9.0.80",
+    "pygame>=2.5.2",
+]
