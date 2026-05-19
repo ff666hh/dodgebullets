@@ -25,7 +25,7 @@ def main():
     clock = pygame.time.Clock()
 
     # 初始化攝影機 (OpenCV)
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(0,cv2.CAP_DSHOW)
     cap.set(cv2.CAP_PROP_FRAME_WIDTH, WINDOW_WIDTH)
     cap.set(cv2.CAP_PROP_FRAME_HEIGHT, WINDOW_HEIGHT)
     
